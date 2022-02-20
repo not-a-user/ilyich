@@ -324,9 +324,9 @@ def fetch_keyphrase_from_server(header, credentials):
             logger.debug(f'raw response = {data}')
 
             try:
-                data = data.decode('ascii')
+                data = data.decode('cp1252')
             except UnicodeDecodeError as e:
-                raise DecoderError(f'server response is not ascii encoded: {e}')
+                raise DecoderError(f'server response is not cp1252 encoded: {e}')
 
             if data.startswith(MESSAGE_INTRO):
                 print(f'error message from server:\n{indent(data[len(MESSAGE_INTRO):], "| ", lambda _: True)}')
