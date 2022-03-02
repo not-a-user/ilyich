@@ -124,7 +124,7 @@ for p in parser_decode, parser_verify:
     p.add_argument('-d', '--destdir', metavar='OUTPUT_DIRECTORY', help='output directory', default='.')
 
 for p in parser_decode, parser_fetch, parser_info, parser_verify:
-    p.add_argument('input', nargs='+', help='input otrkey-file(s)')
+    p.add_argument('input', nargs='+', metavar='INPUT', help='input otrkey-file(s)')
 
 class DecoderError(Exception):
     pass

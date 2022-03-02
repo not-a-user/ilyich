@@ -49,10 +49,10 @@ options:
 ```
 usage: ilyich.py decode [-h] [-k KEYPHRASE] [-f] [-c CACHE_FILE] [-e EMAIL]
                         [-p PASSWORD] [-t] [-u] [-d OUTPUT_DIRECTORY]
-                        input [input ...]
+                        INPUT [INPUT ...]
 
 positional arguments:
-  input                 input otrkey-file(s)
+  INPUT                 input otrkey-file(s)
 
 options:
   -h, --help            show this help message and exit
@@ -82,10 +82,10 @@ options:
 
 ```
 usage: ilyich.py fetch [-h] [-c CACHE_FILE] [-e EMAIL] [-p PASSWORD]
-                       input [input ...]
+                       INPUT [INPUT ...]
 
 positional arguments:
-  input                 input otrkey-file(s)
+  INPUT                 input otrkey-file(s)
 
 options:
   -h, --help            show this help message and exit
@@ -120,10 +120,10 @@ options:
 ### Info
 
 ```
-usage: ilyich.py info [-h] input [input ...]
+usage: ilyich.py info [-h] INPUT [INPUT ...]
 
 positional arguments:
-  input       input otrkey-file(s)
+  INPUT       input otrkey-file(s)
 
 options:
   -h, --help  show this help message and exit
@@ -132,10 +132,10 @@ options:
 ### Verify
 
 ```
-usage: ilyich.py verify [-h] [-t] [-u] [-d OUTPUT_DIRECTORY] input [input ...]
+usage: ilyich.py verify [-h] [-t] [-u] [-d OUTPUT_DIRECTORY] INPUT [INPUT ...]
 
 positional arguments:
-  input                 input otrkey-file(s)
+  INPUT                 input otrkey-file(s)
 
 options:
   -h, --help            show this help message and exit
