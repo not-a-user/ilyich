@@ -12,10 +12,8 @@ This is not [pyotr](https://pyotr.readthedocs.io/).
 Setup
 -----
 
-Install dependencies
-
 ```sh
-python -m pip install --user pycryptodome
+python -m pip install git+https://github.com/not-a-user/ilyich.git@main
 ```
 
 Then run [`ilyich.py`](ilyich.py).
