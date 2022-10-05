@@ -374,7 +374,7 @@ class Progress():
         self.total = total
         self.length = length
         self.file = file
-        self.spinner = cycle('◐◓◑◒')
+        self.spinner = cycle('🌑🌒🌓🌔🌕🌖🌗🌘')
 
     def bar(self, current):
         done = (self.length * current) // self.total
